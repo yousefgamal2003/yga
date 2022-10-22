@@ -255,7 +255,7 @@ section {
     }
 
     .main-content h2{
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     .main-content h3{
@@ -278,6 +278,10 @@ section {
 
     section {
         padding: 10px 20px;
+    }
+
+    .footer-title{
+        font-size: 0.8em;
     }
 
         
