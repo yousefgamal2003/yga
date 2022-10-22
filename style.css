@@ -32,7 +32,7 @@ header {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left: 25px;
     transition: 0.4s;
 }
 
@@ -242,14 +242,16 @@ section {
         font-size: 0.9em;
     }
     .navigation{
-        padding: 0px;
+        padding-left: 0px;
         font-size: 0.9em;
-        font-weight: 400px;
-        justify-content: space-between;
+    }
+
+    .main{
+        background-size: 31cm;
     }
 
     .title{
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .section{
@@ -258,6 +260,18 @@ section {
 
     .main-content h2{
         font-size: 0.9em;
+    }
+
+    .main h3{
+        font-size: 1.1em;
+    }
+
+    .main h2 span{
+        font-size: 1.9em;
+    }
+
+    .main h2{
+        font-size: 1em;
     }
 
     .main-content h3{
