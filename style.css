@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #43494c;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.logo {
+    text-decoration: none;
+    color: #ffbb27;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: 0.4s;
+}
+
+.navigation a:hover{
+    color: #ffbb27;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imeges/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #E7F6F2;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffbb27;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.main h3 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #ffffff;
+    background-color: #efb436;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 60px;
+    margin-bottom: 40px;
+    transition: 0.6s ease;
+}
+
+.main-btn:hover {
+    background-color: #977220;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    margin-top: 3.5em;
+    padding-right: 20px;
+}
+
+.social-icons img{
+    width: 2.5em;
+    transition: 0.5s;
+}
+
+.social-icons img:hover{
+    transform: scale(1.1);
+}
+
+.cards {
+    background-color: #5a5d5e;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #ffbb27;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #ffbb27;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #ffbb27;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: #212223;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s;
+}
+
+
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-card:hover  .project-image{
+    opacity: 0.5em;
+}
+
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 1.2em;
+    color: #000;
+
+}
+
+.contact .icon{
+    font-size: 4.5em;
+}
+
+.contact .info h3{
+    color: #000;
+}
+
+.contact .info p{
+    font-size: 1.3em;
+}
+
+.footer{
+    background-color: #212223;
+    color: #ffffff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.footer-title span{
+    color: #d6970d;
+}
+
+.footer .social-icons a{
+    font-size: 0.7em;
+    padding: 0.7em;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 10px 15px;
+    }
+    .navigation{
+        padding-left: 5px;
+    }
+
+    .title{
+        font-size: 2em;
+    }
+
+    .section{
+        padding: 60px 10px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .main-btn{
+        padding: 1.2em;
+    }
+
+    .social-icons{
+        font-size: 1em;
+    }
+
+    section {
+        padding: 10px 20px;
+    }
+
+        
+}
