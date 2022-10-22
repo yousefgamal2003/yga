@@ -241,11 +241,13 @@ section {
         padding: 10px 15px;
     }
     .navigation{
-        padding-left: 5px;
+        padding-left: 1px;
+        font-size: 0.9em;
+        font-weight: 400px;
     }
 
     .title{
-        font-size: 2em;
+        font-size: 1em;
     }
 
     .section{
@@ -253,11 +255,11 @@ section {
     }
 
     .main-content h2{
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .main-content h3{
-        font-size: 1.6em;
+        font-size: 1.3em;
     }
 
     .content{
@@ -271,7 +273,7 @@ section {
     }
 
     .social-icons{
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     section {
