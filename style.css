@@ -241,9 +241,10 @@ section {
         padding: 10px 15px;
     }
     .navigation{
-        padding-left: 1px;
+        padding-left: 10px;
         font-size: 0.9em;
         font-weight: 400px;
+        justify-content: space-between;
     }
 
     .title{
